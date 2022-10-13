@@ -33,7 +33,7 @@ pipeline {
 	        sh 'pip install requests'
 		sh 'wget https://raw.githubusercontent.com/CelestialSystem/webapp/master/upload-results.py'
 		sh 'chmod +x upload-results.py'
-		sh 'python3 upload-results.py --host 127.0.0.1:8080 --api_key d58bd4ba8a7da52f8c741d87c573fd9f391aa9b0 --engagement_id 1, --result_file trufflehog --username admin --scanner "SSL Labs Scan"'
+		sh 'python3 upload-results.py --host 127.0.0.1:8080 --api_key d58bd4ba8a7da52f8c741d87c573fd9f391aa9b0 --engagement_id-1, --result_file trufflehog --username admin --scanner "SSL Labs Scan"'
 		 }
 	      }
 	  }
