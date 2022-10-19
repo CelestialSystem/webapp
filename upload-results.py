@@ -3,7 +3,7 @@ Example written by Aaron Weaver <aaron.weaver@owasp.org>
 as part of the OWASP DefectDojo and OWASP AppSec Pipeline Security projects
 Description: CI/CD example for DefectDojo
 """
-import defectdojo_apiv2 as defectdojo
+import as defectdojo
 from datetime import datetime, timedelta
 import os, sys
 import argparse
